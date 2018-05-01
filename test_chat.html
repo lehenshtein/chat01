@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Chat</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=320, initial-scale=1">
+    <meta name="theme-color" content="#fff">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+<body>
+   
+    <div class="allinside">
+       <button id="sidebarBtn" class="btn">Контакты</button>
+        <div class="sidebar">
+           <div id="bot" class="sidebar__user"></div>
+            <div id="user1" class="sidebar__user"></div>
+            <div id="user2" class="sidebar__user"></div>
+            <div id="user3" class="sidebar__user"></div>
+        </div>
+        <div class="chat">
+            
+            <div id="chatUser">
+                <div class="chat__common">Выберите кому хотите написать.</div>
+            </div>
+            <form class="submit-form" method="post">
+                <textarea name="msg" id="chatWrite"></textarea>
+                <input type="button" value="Отправить" id="send" class="btn">
+            </form>
+        </div>
+    </div>
+  
+<script src="js/script.js"></script>
+</body>
+</html>
