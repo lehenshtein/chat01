@@ -1,6 +1,9 @@
 * {
     margin: 0;
     }
+body {
+    background-color: #f2f1f7;
+}
        .allinside {
            display: -webkit-box;
            display: -ms-flexbox;
@@ -99,6 +102,7 @@
            display: -ms-flexbox;
            display: flex;
            max-height: 35px;
+           vertical-align: top;
        }
        #chatWrite {
            resize: none;
@@ -149,6 +153,12 @@
             border-right: 10px solid #3b4860;
        }
        @media screen and (max-width: 768px) {
+           .allinside {
+               height: auto;
+           }
+            #chatUser {
+           height: auto;
+       }
            .chat__name {
                right: 50px;
            }
