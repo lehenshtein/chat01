@@ -25,7 +25,7 @@ body {
        }
        #sidebarBtn {
            display: none;
-           position: absolute;
+           position: fixed;
            height: 50px;
            z-index: 99;
        }
@@ -172,6 +172,7 @@ body {
                position: absolute;
                top: 50px;
                z-index: 99;
+               position: fixed;
            }
              .sidebar.active {
            -webkit-transform: translateX(0);
